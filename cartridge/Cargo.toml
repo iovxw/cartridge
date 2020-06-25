@@ -1,0 +1,10 @@
+[package]
+name = "cartridge"
+version = "0.0.0"
+authors = ["iovxw <iovxw@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+cartridge-macros = { path = "../cartridge-macros", version = "0.0" }
+serde = "1.0"
+

@@ -1,16 +1,6 @@
-[package]
-name = "cartridge"
-version = "0.0.0"
-authors = ["iovxw <iovxw@outlook.com>"]
-edition = "2018"
-
-[lib]
-proc-macro = true
-
-[dependencies]
-syn = "1.0"
-quote = "1.0"
-
-[dev-dependencies]
-trybuild = "1.0"
-macrotest = "1.0"
+[workspace]
+members = [
+    "cartridge",
+    "cartridge-macros",
+    "tests",
+]
